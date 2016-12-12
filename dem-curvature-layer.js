@@ -73,6 +73,7 @@
       cvs.height = 256;
       cvs.style.transform = "scale(" + scale + ")";
       cvs.style.transformOrigin = "0 0";
+      cvs.style.opacity = "0.6";
 
       var promises = [];
       promises.push(load(coords, 0, 0));
